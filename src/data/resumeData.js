@@ -11,8 +11,8 @@ export const resumeData = {
       url: "https://www.linkedin.com/in/kritika-tripathi-837441246?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
     },
     github: {
-      handle: "kritikatripathi17",
-      url: "https://github.com/kritikatripathi17"
+      handle: "krtx17",
+      url: "https://github.com/krtx17"
     }
   },
   summary: "Computer Science undergraduate (B.Tech, CSE) with hands-on full-stack and AI/ML experience across five internships, including production-grade RESTful APIs, React.js apps, and AI pipelines on Hugging Face Spaces. Strong in Java, Python, JavaScript, OOP, and REST/JSON integration; delivered 5+ live projects and ranked 3rd nationally among 50+ teams in a hackathon.",
@@ -127,7 +127,7 @@ export const resumeData = {
       role: "Deep Learning Engineer",
       period: "Mar 2026 – Apr 2026",
       badge: "Google ADK & GraphSAGE",
-      github: "https://github.com/kritikatripathi17",
+      github: "https://github.com/krtx17",
       liveDemo: "https://ripplegraph-ai.vercel.app",
       shortDesc: "Pioneered a GraphSAGE Graph Neural Network (GNN) to analyze 29-node supplier networks, achieving 94.2% confidence predicting per-node daily risk scores 45 days in advance.",
       bullets: [
@@ -148,7 +148,7 @@ export const resumeData = {
       role: "AI Systems Engineer",
       period: "Jan 2026 – Feb 2026",
       badge: "3rd Place, AgentathonX 2026",
-      github: "https://github.com/kritikatripathi17",
+      github: "https://github.com/krtx17",
       liveDemo: "https://ev-q-expert.vercel.app",
       shortDesc: "Conceived a multi-agent AI architecture utilizing Gemini AI and Google ADK to orchestrate 5 specialized diagnostic agents, accelerating query resolution by 60%.",
       bullets: [
@@ -169,7 +169,7 @@ export const resumeData = {
       role: "Full Stack Engineer",
       period: "Dec 2025 – Jan 2026",
       badge: "Open Source Tool",
-      github: "https://github.com/kritikatripathi17",
+      github: "https://github.com/krtx17",
       liveDemo: "https://contriflow.vercel.app",
       shortDesc: "Engineered an automated triage and synchronization engine for distributed developer teams, reducing PR review cycle times by 45%.",
       bullets: [
@@ -190,7 +190,7 @@ export const resumeData = {
       role: "AI / Full Stack Developer",
       period: "Nov 2025 – Dec 2025",
       badge: "Hugging Face Spaces",
-      github: "https://github.com/kritikatripathi17",
+      github: "https://github.com/krtx17",
       liveDemo: "https://twinmind-ai.vercel.app",
       shortDesc: "Architected an NLP pipeline for real-time mood and cognitive burnout detection served across 9 high-throughput REST endpoints.",
       bullets: [
@@ -234,7 +234,7 @@ export const resumeData = {
     },
     {
       q: "How can I get in touch with you?",
-      a: "You can email me directly at mahitripathi966@gmail.com, connect on LinkedIn at linkedin.com/in/kritika-tripathi, inspect my code at github.com/kritikatripathi17, or call me at +91-9517092236."
+      a: "You can email me directly at mahitripathi966@gmail.com, connect on LinkedIn at linkedin.com/in/kritika-tripathi, inspect my code at github.com/krtx17, or call me at +91-9517092236."
     }
   ]
 };

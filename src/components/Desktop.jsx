@@ -158,7 +158,7 @@ export default function Desktop({ onRestartBoot }) {
       icon: '/assets/icons/github.png',
       action: () => {
         playClick();
-        window.open('https://github.com/kritikatripathi17', '_blank');
+        window.open('https://github.com/krtx17', '_blank');
       },
     },
     {

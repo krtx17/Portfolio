@@ -197,7 +197,7 @@ export default function Window({
                   {item === 'Go' && (
                     <>
                       <div 
-                        onClick={() => { playClick(); window.open('https://github.com/kritikatripathi17', '_blank'); setActiveMenu(null); }}
+                        onClick={() => { playClick(); window.open('https://github.com/krtx17', '_blank'); setActiveMenu(null); }}
                         className="px-3 py-1 hover:bg-[#000080] hover:text-white cursor-pointer"
                       >
                         GitHub Profile
