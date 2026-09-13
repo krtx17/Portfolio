@@ -26,12 +26,13 @@
 
 ---
 
-## 🧭 Navigation
+## 🧭 Table of Contents
 
 - [✨ Overview](#-overview)
 - [📸 Feature Showcase](#-feature-showcase)
 - [🕹️ Interactive Applications](#️-interactive-applications)
 - [🛠️ Tech Stack & Architecture](#️-tech-stack--architecture)
+- [📂 Directory Structure](#-directory-structure)
 - [🚀 Local Development](#-local-development)
 - [☁️ Deploy to Vercel](#️-deploy-to-vercel)
 - [📬 Connect with Kritika](#-connect-with-kritika)
@@ -40,12 +41,11 @@
 
 ## ✨ Overview
 
-**Kritika OS '98** is a production-ready, interactive personal portfolio disguised as an authentic late-90s Windows desktop operating system. Built from scratch with modern web standards, it delivers a deeply nostalgic, tactile pair-programming experience with retro 3D beveled windows, realistic mechanical sound effects, retro arcade games, and Web Audio synthesizers—while showcasing production AI/ML engineering, full-stack web applications, and five completed internships.
+**Kritika OS '98** is an interactive personal portfolio disguised as an authentic late-90s Windows desktop operating system. Built from scratch with modern web standards, it delivers a nostalgic experience with retro 3D beveled windows, mechanical sound effects, retro games, and Web Audio synthesizers—while showcasing production AI/ML engineering, full-stack web applications, and five completed internships.
 
-### Highlights
-- ⚡ **Zero-Latency Interactions**: Draggable, resizable, stackable windows with custom retro scrollbars.
-- 🎛️ **Hardware Sound Synthesis**: Built-in synthesizer for keyboard clicks, startup chimes, error buzzers, and retro synth music via native Web Audio API (zero audio file bloat).
-- 📱 **Adaptive Retro Viewport**: Responsive window positioning that gracefully handles both wide desktop monitors and mobile devices.
+- ⚡ **Zero-Latency Window Manager**: Draggable, resizable, stackable windows with custom retro scrollbars.
+- 🎛️ **Hardware Sound Synthesis**: Synthesizes keyboard clicks, startup chimes, error buzzers, and retro synth music via native Web Audio API (zero audio file bloat).
+- 📱 **Adaptive Viewport**: Responsive window coordinates that automatically adapt to both wide desktop screens and mobile displays.
 - 📄 **ATS-Optimized Resume Viewer**: Integrated Adobe Acrobat Reader '98 rendering an industry-standard 1-page resume with one-click download.
 
 ---
@@ -70,54 +70,37 @@
 
 ## 🕹️ Interactive Applications
 
-`
-┌───────────────────────────┬──────────────────────────────────────────────────────────────┐
-│ Application               │ Description                                                  │
-├───────────────────────────┼──────────────────────────────────────────────────────────────┤
-│ 🏠 Home Window            │ Developer profile, 5 internships timeline, technical         │
-│                           │ services, tools grid, and FAQ accordion.                     │
-│                           │                                                              │
-│ 📁 My Portfolio           │ 2x2 production projects showcase with dark CRT previews,     │
-│                           │ live Vercel demos, GitHub links, and architectural modal.    │
-│                           │                                                              │
-│ 🤖 Tic-Tac-Toe '98        │ Play against 'Kritika-Bot' (smart AI with winning-move       │
-│                           │ calculation & block detection) or 2-player mode + confetti.  │
-│                           │                                                              │
-│ 🐍 Snake 3310 (Nokia)     │ Classic Nokia arcade game with green LCD display, keyboard   │
-│                           │ controls (Arrows/WASD) + on-screen D-pad.                    │
-│                           │                                                              │
-│ 📻 Winamp 98 Media Player │ 4-track retro audio engine featuring the 80s Stranger Things │
-│                           │ analog synth arpeggio and real-time stereo equalizer.        │
-│                           │                                                              │
-│ 📄 Resume.pdf (Acrobat)   │ Single-page ATS resume viewer styled after Acrobat '98 with  │
-│                           │ instant PDF download and print capabilities.                 │
-│                           │                                                              │
-│ 💻 My Computer            │ Windows 98 System Properties dialog detailing CPU, RAM,      │
-│                           │ verified technologies, and credentials.                      │
-│                           │                                                              │
-│ ✉️ Outlook Express        │ Retro email composer pre-configured to send direct messages  │
-│                           │ to mahitripathi966@gmail.com.                                │
-└───────────────────────────┴──────────────────────────────────────────────────────────────┘
-`
+| App Icon | Application | Description |
+|:---:|:---|:---|
+| 🏠 | **Home Window** | Developer profile, 5 internships timeline, technical services, interactive tools grid, and FAQ accordion. |
+| 📁 | **My Portfolio** | 2x2 production projects showcase with dark CRT previews, live Vercel demos, GitHub links, and deep-dive architectural modal. |
+| 🤖 | **Tic-Tac-Toe '98** | Play against **Kritika-Bot** (smart AI with winning-move calculation & block detection) or 2-player pass-and-play mode with victory confetti. |
+| 🐍 | **Snake 3310 (Nokia)** | Classic Nokia arcade game with green LCD display, arcade acceleration curve starting at 240ms, keyboard controls (Arrows/WASD) + on-screen D-pad. |
+| 📻 | **Winamp 98 Media Player** | 4-track retro audio engine featuring the 80s Stranger Things analog synth arpeggio, resonant filter sweeps, and real-time stereo equalizer. |
+| 📄 | **Resume.pdf (Acrobat)** | Single-page ATS resume viewer styled after Adobe Acrobat '98 with instant PDF download and print capabilities. |
+| 💻 | **My Computer** | Windows 98 System Properties dialog detailing CPU, RAM, verified technologies, and credentials. |
+| ✉️ | **Outlook Express** | Retro email composer pre-configured to send direct messages to `mahitripathi966@gmail.com`. |
+| 🗑️ | **Recycle Bin** | Classic system bin with nostalgic "0 bugs discarded" prompt. |
 
 ---
 
 ## 🛠️ Tech Stack & Architecture
 
-### Core Technologies
-- **Frontend Framework**: [React 18.3](https://react.dev/)
-- **Build Tool**: [Vite 6.0](https://vitejs.dev/)
-- **Styling**: [Tailwind CSS 3.4](https://tailwindcss.com/) + Custom Win98 3D Bevel Engine (win-box-out, win-box-in, win-btn, win-titlebar)
-- **Sound & Music Synthesis**: [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) (dual sawtooth/sine oscillators, biquad lowpass resonant filters, gain envelopes)
+- **Frontend Framework**: [React 18.3](https://react.dev/) + [Vite 6.0](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS 3.4](https://tailwindcss.com/) + Custom Win98 3D Bevel Utility Classes (`win-box-out`, `win-box-in`, `win-btn`, `win-titlebar`)
+- **Sound & Music Synthesis**: [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) (OscillatorNodes, BiquadFilterNodes, GainNodes)
 - **Visuals & Effects**: Canvas Confetti, CRT Scanlines, Pixel Art Sprites, [Lucide React](https://lucide.dev/)
 
-### Directory Structure
-`	ext
+---
+
+## 📂 Directory Structure
+
+```text
 portfolio/
 ├── public/
 │   ├── assets/
 │   │   ├── icons/            # Pixel-art sprites (home, snake, tictactoe, mail, etc.)
-│   │   ├── screenshots/      # High-res README previews
+│   │   ├── screenshots/      # High-resolution README previews
 │   │   ├── wallpaper.jpg     # Nostalgic Win98 pine forest wallpaper
 │   │   └── portrait.jpg      # Developer workstation photo
 │   ├── resume.pdf            # 1-page ATS formatted resume
@@ -147,7 +130,7 @@ portfolio/
 ├── vercel.json               # Pre-configured Vercel routing
 ├── package.json
 └── vite.config.js
-`
+```
 
 ---
 
@@ -155,61 +138,56 @@ portfolio/
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (version 18 or higher recommended)
-- 
-pm (bundled with Node.js)
+- `npm` (bundled with Node.js)
 
 ### 1. Clone the repository
-`ash
+```bash
 git clone https://github.com/krtx17/Portfolio.git
 cd Portfolio
-`
+```
 
 ### 2. Install dependencies
-`ash
+```bash
 npm install
-`
+```
 
 ### 3. Start development server
-`ash
+```bash
 npm run dev
-`
+```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### 4. Build for production
-`ash
+```bash
 npm run build
-`
+```
 
 ---
 
 ## ☁️ Deploy to Vercel
 
-This repository includes a production-ready ercel.json for one-click deployment:
+This repository includes a production-ready `vercel.json` for one-click deployment:
 
 1. Go to **[vercel.com/new](https://vercel.com/new)**.
-2. Sign in with GitHub and select **Portfolio** from your repository list.
+2. Sign in with GitHub and select **`Portfolio`** from your repository list.
 3. Keep default settings:
-   - **Framework Preset**: Vite
-   - **Build Command**: 
-pm run build
-   - **Output Directory**: dist
+   - **Framework Preset**: `Vite`
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
 4. Click **Deploy**!
 
 ---
 
 ## 📬 Connect with Kritika
 
-<div align="left">
-
 - **Developer**: **Kritika Tripathi**
+- **Role**: AI & Full Stack Developer
 - **Education**: B.Tech in Computer Science & Engineering (2023 – 2027)
 - **Email**: [mahitripathi966@gmail.com](mailto:mahitripathi966@gmail.com)
 - **LinkedIn**: [linkedin.com/in/kritika-tripathi](https://www.linkedin.com/in/kritika-tripathi-837441246)
 - **GitHub**: [@krtx17](https://github.com/krtx17)
 
-</div>
-
-<br />
+---
 
 <div align="center">
   <sub>Crafted with nostalgic ❤️ and modern web precision.</sub>
