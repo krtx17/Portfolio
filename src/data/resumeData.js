@@ -63,11 +63,10 @@ export const resumeData = {
       company: "Quantaliez",
       role: "AI Full Stack Developer Intern",
       period: "Jun 2026 – Present",
-      location: "Lucknow, Uttar Pradesh, India",
+      location: "Lucknow, UP, India",
       bullets: [
-        "Contributing to full-stack AI product development across frontend and backend layers in an on-site startup environment, collaborating directly with cross-functional product teams.",
-        "Engineered high-performance RESTful microservices and asynchronous database queries, accelerating AI model response times by 35%.",
-        "Architected responsive component-driven user interfaces in React.js, ensuring cross-device compatibility and seamless real-time AI telemetry data visualization."
+        "Developing full-stack AI products (React, Node) in a fast-paced startup, directly collaborating with product teams.",
+        "Engineered RESTful microservices and optimized queries, accelerating AI response latency by 35%."
       ]
     },
     {
@@ -76,8 +75,8 @@ export const resumeData = {
       period: "May 2026 – Present",
       location: "Remote",
       bullets: [
-        "Built AI-powered features and prompt engineering pipelines in Python; shipped full-stack AI workflows (React.js + FastAPI) to production on Hugging Face Spaces.",
-        "Engineered context-aware LLM prompt orchestration pipelines that reduced token overhead and inference latency across multi-modal queries."
+        "Built and shipped prompt engineering pipelines and full-stack AI workflows to production on Hugging Face Spaces.",
+        "Engineered context-aware LLM orchestration that reduced token overhead and inference latency."
       ]
     },
     {
@@ -86,18 +85,7 @@ export const resumeData = {
       period: "Jun 2026 – Sep 2026",
       location: "Remote",
       bullets: [
-        "Building conversational AI chatbots with workflow automation, third-party API integrations, and prompt optimization to improve response accuracy by 40%.",
-        "Devised automated webhook pipelines and state management protocols to streamline query resolution and multi-turn customer dialogues."
-      ]
-    },
-    {
-      company: "Netcamp Solutions Pvt Ltd",
-      role: "Summer Intern – Networking & App Development",
-      period: "Jun 2026 – Jul 2026",
-      location: "Ghaziabad, Uttar Pradesh, India",
-      bullets: [
-        "Trained in Ethical Hacking & Networking, Android Development (Java/Kotlin), and Web Development (Python); delivered 3 live projects adhering to strict cybersecurity benchmarks.",
-        "Configured network packet inspection pipelines and implemented secure client-server socket communication protocols."
+        "Built conversational AI chatbots with automated webhooks, improving query resolution accuracy by 40%."
       ]
     },
     {
@@ -106,41 +94,30 @@ export const resumeData = {
       period: "Jan 2026 – Apr 2026",
       location: "Remote",
       bullets: [
-        "Built RESTful APIs with JWT authentication using Node.js and Express.js, implementing secure user authentication and data-handling endpoints.",
-        "Developed 5+ responsive React.js pages, ensuring cross-device compatibility, state caching, and clean component-based architecture."
-      ]
-    },
-    {
-      company: "GSSoC 2025 & ELUSOC 2025",
-      role: "Software Contributor – Open Source (Global Summer of Code)",
-      period: "2025 – 2026",
-      location: "Remote",
-      bullets: [
-        "Merged code improvements and bug fixes into open-source JavaScript/React.js repositories as part of global open-source contribution programs."
+        "Built RESTful APIs with JWT auth in Node.js and developed responsive React.js frontends with state caching."
       ]
     }
   ],
   projects: [
     {
       id: "ripplegraph-ai",
-      title: "RippleGraph AI — Predictive Supply Chain GNN",
+      title: "RippleGraph AI — Predictive GNN",
       role: "Deep Learning Engineer",
       period: "Mar 2026 – Apr 2026",
       badge: "Google ADK & GraphSAGE",
       github: "https://github.com/krtx17",
       liveDemo: "https://ripplegraph-ai.vercel.app",
-      shortDesc: "Pioneered a GraphSAGE Graph Neural Network (GNN) to analyze 29-node supplier networks, achieving 94.2% confidence predicting per-node daily risk scores 45 days in advance.",
+      shortDesc: "Pioneered a GraphSAGE GNN to analyze supplier networks, achieving 94.2% confidence predicting risk.",
       bullets: [
-        "Pioneered a GraphSAGE Graph Neural Network (GNN) to analyze 29-node supplier networks, achieving 94.2% confidence predicting per-node daily risk scores 45 days in advance.",
-        "Established a three-agent AI pipeline (Monitor, Analyst, Recommender) using Google ADK to evaluate cascade disruption severity and generate preventative mitigation protocols.",
-        "Transformed system resilience by optimizing an 848 KB machine learning model and backend logic to run fully offline, eliminating reliance on cloud LLM infrastructure."
+        "Pioneered a GraphSAGE GNN for supplier networks, achieving 94.2% confidence in risk prediction 45 days in advance.",
+        "Established a 3-agent pipeline using Google ADK to evaluate cascade severity and generate offline mitigation protocols."
       ],
       stats: [
         { label: "Confidence", value: "94.2%" },
         { label: "Lead Time", value: "45 Days" },
         { label: "Model Size", value: "848 KB" }
       ],
-      tags: ["GraphSAGE GNN", "PyTorch", "Google ADK", "Python", "Vercel"]
+      tags: ["GraphSAGE GNN", "PyTorch", "Google ADK", "Python"]
     },
     {
       id: "ev-q",
@@ -150,60 +127,37 @@ export const resumeData = {
       badge: "3rd Place, AgentathonX 2026",
       github: "https://github.com/krtx17",
       liveDemo: "https://ev-q-expert.vercel.app",
-      shortDesc: "Conceived a multi-agent AI architecture utilizing Gemini AI and Google ADK to orchestrate 5 specialized diagnostic agents, accelerating query resolution by 60%.",
+      shortDesc: "Conceived a multi-agent AI architecture utilizing Gemini AI and Google ADK to orchestrate 5 specialized diagnostic agents.",
       bullets: [
-        "Conceived a multi-agent AI architecture utilizing Gemini AI and Google ADK to orchestrate 5 specialized diagnostic agents, accelerating query resolution by 60% against 50+ national teams.",
-        "Refined electric vehicle data pipelines through cleaning and feature engineering across 18+ sensor telemetry streams, optimizing predictive processing for sustainable mobility.",
-        "Launched a Streamlit dashboard integrating real-time telemetry and 7 drive modes, delivering actionable predictive insights to non-technical stakeholders."
+        "Architected a Gemini AI multi-agent system to orchestrate 5 diagnostic agents, speeding up queries by 60% (3rd/50+ teams).",
+        "Refined 18+ sensor telemetry streams and built a real-time Streamlit dashboard for predictive drive mode insights."
       ],
       stats: [
         { label: "Query Speedup", value: "60%" },
         { label: "National Standing", value: "3rd / 50+" },
-        { label: "Telemetry Streams", value: "18+ Sensors" }
+        { label: "Telemetry", value: "18+ Sensors" }
       ],
-      tags: ["Multi-Agent AI", "Gemini AI", "Google ADK", "Streamlit", "Python"]
-    },
-    {
-      id: "contriflow",
-      title: "ContriFlow — Open Source Workflow Orchestrator",
-      role: "Full Stack Engineer",
-      period: "Dec 2025 – Jan 2026",
-      badge: "Open Source Tool",
-      github: "https://github.com/krtx17",
-      liveDemo: "https://contriflow.vercel.app",
-      shortDesc: "Engineered an automated triage and synchronization engine for distributed developer teams, reducing PR review cycle times by 45%.",
-      bullets: [
-        "Engineered an automated triage and synchronization engine for distributed developer teams, reducing PR review cycle times by 45%.",
-        "Integrated real-time GitHub Webhook listeners, milestone tracking pipelines, and automated contributor recognition leaderboards across multiple repositories.",
-        "Developed an interactive React.js dashboard with modular component architecture and responsive state synchronization."
-      ],
-      stats: [
-        { label: "Review Speedup", value: "45%" },
-        { label: "Integration", value: "GitHub Webhooks" },
-        { label: "Architecture", value: "React + Node" }
-      ],
-      tags: ["React.js", "Node.js", "GitHub API", "Open Source", "Vercel"]
+      tags: ["Multi-Agent AI", "Gemini AI", "Streamlit", "Python"]
     },
     {
       id: "twinmind-ai",
-      title: "TwinMind AI — AI-Powered Productivity Assistant",
+      title: "TwinMind AI — Productivity Assistant",
       role: "AI / Full Stack Developer",
       period: "Nov 2025 – Dec 2025",
       badge: "Hugging Face Spaces",
       github: "https://github.com/krtx17",
       liveDemo: "https://twinmind-ai.vercel.app",
-      shortDesc: "Architected an NLP pipeline for real-time mood and cognitive burnout detection served across 9 high-throughput REST endpoints.",
+      shortDesc: "Architected an NLP pipeline for real-time mood detection served across 9 REST endpoints.",
       bullets: [
-        "Architected an NLP pipeline for real-time mood and cognitive burnout detection served across 9 high-throughput REST endpoints.",
-        "Shipped full-stack AI workflows (FastAPI + React.js) to production on Hugging Face Spaces with sub-200ms latency.",
-        "Built sentiment scoring algorithms and productivity telemetry dashboards to assist engineering squads in tracking wellbeing."
+        "Architected an NLP pipeline for mood/burnout detection served across 9 high-throughput APIs (<200ms latency).",
+        "Shipped full-stack AI workflows (FastAPI + React.js) and sentiment scoring algorithms to Hugging Face Spaces."
       ],
       stats: [
         { label: "REST Endpoints", value: "9 APIs" },
         { label: "Response Latency", value: "< 200ms" },
         { label: "Platform", value: "Hugging Face" }
       ],
-      tags: ["NLP", "FastAPI", "Hugging Face", "React.js", "Vercel"]
+      tags: ["NLP", "FastAPI", "Hugging Face", "React.js"]
     }
   ],
   achievements: [
