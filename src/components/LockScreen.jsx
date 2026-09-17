@@ -74,7 +74,7 @@ export default function LockScreen({ onUnlock }) {
   return (
     <div 
       onClick={handleManualSubmit}
-      className="relative w-screen h-screen flex flex-col items-center justify-center select-none overflow-hidden cursor-pointer"
+      className="relative w-full h-[100dvh] flex flex-col items-center justify-center select-none overflow-hidden cursor-pointer"
       style={{
         background: 'linear-gradient(180deg, #4480d4 0%, #3b91c8 45%, #25a0b8 100%)'
       }}
@@ -101,7 +101,7 @@ export default function LockScreen({ onUnlock }) {
       {/* Center login box */}
       <div 
         onClick={(e) => e.stopPropagation()} 
-        className="relative z-10 flex flex-col items-center max-w-sm w-full px-6 cursor-default"
+        className="relative z-10 flex flex-col items-center max-w-sm w-full px-4 cursor-default"
       >
         {/* User Portrait Photo Frame */}
         <div className="w-40 h-40 sm:w-48 sm:h-48 win-box-out p-1 bg-[#c0c0c0] mb-6 shadow-2xl">
@@ -115,10 +115,10 @@ export default function LockScreen({ onUnlock }) {
         </div>
 
         {/* Enter Password Form */}
-        <form onSubmit={handleManualSubmit} className="w-full max-w-xs flex flex-col items-start gap-1.5">
+        <form onSubmit={handleManualSubmit} className="w-full max-w-[280px] sm:max-w-xs flex flex-col items-start gap-1.5">
           <label 
             htmlFor="pwd"
-            className="text-white font-pixel text-2xl tracking-wide drop-shadow-sm"
+            className="text-white font-pixel text-xl sm:text-2xl tracking-wide drop-shadow-sm"
           >
             Enter Password
           </label>
@@ -130,13 +130,13 @@ export default function LockScreen({ onUnlock }) {
               readOnly
               value={password}
               placeholder="Logging in..."
-              className="flex-1 bg-white text-black font-mono tracking-widest px-3 text-xl outline-none win-box-in border-r-0"
+              className="flex-1 min-w-0 bg-white text-black font-mono tracking-widest px-3 text-lg sm:text-xl outline-none win-box-in border-r-0"
             />
 
             <button
               ref={buttonRef}
               type="submit"
-              className={`px-4 text-black font-sans text-base font-medium h-full flex items-center justify-center min-w-[85px] win-btn ${
+              className={`px-3 sm:px-4 text-black font-sans text-sm sm:text-base font-medium h-full flex items-center justify-center min-w-[75px] sm:min-w-[85px] win-btn ${
                 isButtonPressed ? 'win-btn-pressed' : ''
               }`}
             >
