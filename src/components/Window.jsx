@@ -56,6 +56,14 @@ export default function Window({
     };
   }, []);
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   if (!isOpen || isMinimized) return null;
 
   return (
@@ -68,10 +76,10 @@ export default function Window({
         ...(isMaximized
           ? { top: 0, left: 0, width: '100vw', height: 'calc(100vh - 40px)' }
           : {
-              top: `${pos.y}px`,
-              left: `${pos.x}px`,
-              width: `min(${defaultSize.width}px, 96vw)`,
-              height: `min(${defaultSize.height}px, 86vh)`,
+              top: windowWidth < 640 ? '1dvh' : `${pos.y}px`,
+              left: windowWidth < 640 ? '1vw' : `${pos.x}px`,
+              width: windowWidth < 640 ? '98vw' : `min(${defaultSize.width}px, 96vw)`,
+              height: windowWidth < 640 ? 'calc(100dvh - 46px)' : `min(${defaultSize.height}px, 86vh)`,
             }),
       }}
       className="fixed win-box-out p-1 bg-[#c0c0c0] flex flex-col shadow-win-window select-none text-black"

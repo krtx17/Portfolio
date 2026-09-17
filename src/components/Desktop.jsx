@@ -196,7 +196,7 @@ export default function Desktop({ onRestartBoot }) {
       <div className="absolute inset-0 scanlines opacity-20 pointer-events-none" />
 
       {/* Left Desktop Icons Column */}
-      <div className="absolute top-4 left-4 flex flex-col gap-4 z-0">
+      <div className="absolute top-4 left-4 flex flex-col gap-2 sm:gap-4 z-0">
         {leftIcons.map((item) => {
           const isSelected = selectedIcon === item.id;
           return (
@@ -212,16 +212,16 @@ export default function Desktop({ onRestartBoot }) {
                 e.stopPropagation();
                 item.action();
               }}
-              className={`w-20 sm:w-24 p-1.5 flex flex-col items-center text-center cursor-pointer rounded-xs transition-colors group ${
+              className={`w-16 sm:w-24 p-1.5 flex flex-col items-center text-center cursor-pointer rounded-xs transition-colors group ${
                 isSelected ? 'bg-blue-900/75 outline-1 outline-dotted outline-white' : 'hover:bg-white/10'
               }`}
             >
               <img
                 src={item.icon}
                 alt={item.title}
-                className="w-10 h-10 sm:w-11 sm:h-11 object-contain filter drop-shadow-md mb-1"
+                className="w-8 h-8 sm:w-11 sm:h-11 object-contain filter drop-shadow-md mb-1"
               />
-              <span className="text-white text-xs font-sans font-bold px-1 py-0.5 rounded text-center leading-tight drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
+              <span className="text-white text-[10px] sm:text-xs font-sans font-bold px-1 py-0.5 rounded text-center leading-tight drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
                 {item.title}
               </span>
             </div>
@@ -230,7 +230,7 @@ export default function Desktop({ onRestartBoot }) {
       </div>
 
       {/* Right Desktop Icons Column */}
-      <div className="absolute top-4 right-4 flex flex-col gap-4 z-0">
+      <div className="absolute top-4 right-4 flex flex-col gap-2 sm:gap-4 z-0">
         {rightIcons.map((item) => {
           const isSelected = selectedIcon === item.id;
           return (
@@ -246,16 +246,16 @@ export default function Desktop({ onRestartBoot }) {
                 e.stopPropagation();
                 item.action();
               }}
-              className={`w-20 sm:w-24 p-1.5 flex flex-col items-center text-center cursor-pointer rounded-xs transition-colors group ${
+              className={`w-16 sm:w-24 p-1.5 flex flex-col items-center text-center cursor-pointer rounded-xs transition-colors group ${
                 isSelected ? 'bg-blue-900/75 outline-1 outline-dotted outline-white' : 'hover:bg-white/10'
               }`}
             >
               <img
                 src={item.icon}
                 alt={item.title}
-                className="w-10 h-10 sm:w-11 sm:h-11 object-contain filter drop-shadow-md mb-1"
+                className="w-8 h-8 sm:w-11 sm:h-11 object-contain filter drop-shadow-md mb-1"
               />
-              <span className="text-white text-xs font-sans font-bold px-1 py-0.5 rounded text-center leading-tight drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
+              <span className="text-white text-[10px] sm:text-xs font-sans font-bold px-1 py-0.5 rounded text-center leading-tight drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
                 {item.title}
               </span>
             </div>

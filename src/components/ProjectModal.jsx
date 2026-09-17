@@ -21,7 +21,7 @@ export default function ProjectModal({ project, onClose, onFocus, zIndex }) {
       zIndex={zIndex}
       statusText={`Project: ${project.title} | Status: Production`}
     >
-      <div className="p-6 sm:p-8 bg-[#f5f8fc] min-h-full space-y-6 text-black font-sans leading-relaxed">
+      <div className="p-4 sm:p-8 bg-[#f5f8fc] min-h-full space-y-6 text-black font-sans leading-relaxed">
         {/* Header Badge & Title */}
         <div className="border-b-2 border-[#808080] pb-4">
           <div className="flex items-center gap-2 mb-2">

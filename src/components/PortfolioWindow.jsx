@@ -6,7 +6,7 @@ import { Github, ExternalLink, Layers, CheckCircle2 } from 'lucide-react';
 export default function PortfolioWindow({ onOpenProject }) {
   return (
     <div 
-      className="w-full min-h-full p-6 sm:p-10 text-black font-sans leading-relaxed selection:bg-[#000080] selection:text-white"
+      className="w-full min-h-full p-4 sm:p-10 text-black font-sans leading-relaxed selection:bg-[#000080] selection:text-white"
       style={{
         background: 'linear-gradient(180deg, #b0d3f8 0%, #cae3fb 50%, #e8f2fc 100%)'
       }}
@@ -115,8 +115,8 @@ export default function PortfolioWindow({ onOpenProject }) {
       </div>
 
       {/* Additional Hackathons & Technical Competitions */}
-      <div className="max-w-5xl mx-auto mt-12 p-6 win-box-out bg-[#c0c0c0]">
-        <div className="win-box-in p-6 bg-white">
+      <div className="max-w-5xl mx-auto mt-12 p-4 sm:p-6 win-box-out bg-[#c0c0c0]">
+        <div className="win-box-in p-4 sm:p-6 bg-white">
           <h3 className="text-xl font-serif font-black text-gray-950 mb-2">
             Competitive Hackathons &amp; Recognition
           </h3>

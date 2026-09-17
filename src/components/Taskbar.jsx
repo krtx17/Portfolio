@@ -149,10 +149,10 @@ export default function Taskbar({
         </div>
 
         {/* Separator */}
-        <div className="h-5 w-[2px] bg-[#808080] border-r border-white mx-0.5" />
+        <div className="hidden sm:block h-5 w-[2px] bg-[#808080] border-r border-white mx-0.5" />
 
         {/* Quick Launch Icons */}
-        <div className="flex items-center gap-1">
+        <div className="hidden sm:flex items-center gap-1">
           <button
             onClick={() => { playClick(); onOpenHome(); }}
             className="p-1 hover:bg-[#d0d0d0] active:bg-[#b0b0b0] rounded-xs"

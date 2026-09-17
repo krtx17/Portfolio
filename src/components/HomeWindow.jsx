@@ -37,7 +37,7 @@ export default function HomeWindow({
     <div className="w-full bg-[#e8f1fa] text-black font-sans leading-relaxed text-sm selection:bg-[#000080] selection:text-white">
       {/* Top Header Sky Section */}
       <div 
-        className="w-full p-6 sm:p-10 border-b-2 border-[#808080]"
+        className="w-full p-4 sm:p-10 border-b-2 border-[#808080]"
         style={{
           background: 'linear-gradient(180deg, #99c2ec 0%, #b8d7f7 50%, #d8e9fc 100%)'
         }}
@@ -92,7 +92,7 @@ export default function HomeWindow({
         </div>
 
         {/* Hero Card Content */}
-        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+        <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 items-center">
           {/* Portrait Photo */}
           <div className="md:col-span-5 flex justify-center">
             <div className="win-box-out p-1 bg-[#c0c0c0] shadow-xl w-64 h-72 sm:w-72 sm:h-80">
@@ -203,7 +203,7 @@ export default function HomeWindow({
       </div>
 
       {/* Main Work Preview Section */}
-      <div id="sec-work" className="p-6 sm:p-10 max-w-5xl mx-auto">
+      <div id="sec-work" className="p-4 sm:p-10 max-w-5xl mx-auto">
         <div className="flex items-center justify-between mb-6 pb-2 border-b-2 border-[#808080]">
           <h3 className="text-2xl sm:text-3xl font-serif font-bold text-gray-950 flex items-center gap-2">
             <span>Featured Projects</span>
@@ -328,7 +328,7 @@ export default function HomeWindow({
       </div>
 
       {/* Services Section */}
-      <div id="sec-services" className="p-6 sm:p-10 max-w-5xl mx-auto border-t-2 border-[#808080]">
+      <div id="sec-services" className="p-4 sm:p-10 max-w-5xl mx-auto border-t-2 border-[#808080]">
         <h3 className="text-2xl sm:text-3xl font-serif font-bold text-gray-950 mb-6">
           Technical Services &amp; Capabilities
         </h3>
@@ -350,7 +350,7 @@ export default function HomeWindow({
       </div>
 
       {/* Tools Section */}
-      <div id="sec-tools" className="p-6 sm:p-10 max-w-5xl mx-auto border-t-2 border-[#808080]">
+      <div id="sec-tools" className="p-4 sm:p-10 max-w-5xl mx-auto border-t-2 border-[#808080]">
         <h3 className="text-2xl sm:text-3xl font-serif font-bold text-gray-950 mb-6">
           Tools &amp; Technologies Grid
         </h3>
@@ -372,7 +372,7 @@ export default function HomeWindow({
       </div>
 
       {/* Experience Section */}
-      <div id="sec-experience" className="p-6 sm:p-10 max-w-5xl mx-auto border-t-2 border-[#808080]">
+      <div id="sec-experience" className="p-4 sm:p-10 max-w-5xl mx-auto border-t-2 border-[#808080]">
         <div className="flex items-center justify-between mb-6">
           <h3 className="text-2xl sm:text-3xl font-serif font-bold text-gray-950">
             Work Experience &amp; Internships
@@ -416,7 +416,7 @@ export default function HomeWindow({
       </div>
 
       {/* Education & Achievements */}
-      <div className="p-6 sm:p-10 max-w-5xl mx-auto border-t-2 border-[#808080]">
+      <div className="p-4 sm:p-10 max-w-5xl mx-auto border-t-2 border-[#808080]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Education */}
           <div className="win-box-out p-1 bg-[#c0c0c0]">
@@ -469,7 +469,7 @@ export default function HomeWindow({
       </div>
 
       {/* FAQ Section */}
-      <div id="sec-faq" className="p-6 sm:p-10 max-w-5xl mx-auto border-t-2 border-[#808080]">
+      <div id="sec-faq" className="p-4 sm:p-10 max-w-5xl mx-auto border-t-2 border-[#808080]">
         <h3 className="text-2xl sm:text-3xl font-serif font-bold text-gray-950 mb-6">
           FAQ
         </h3>
@@ -504,7 +504,7 @@ export default function HomeWindow({
       </div>
 
       {/* Footer Contact Section */}
-      <div className="p-8 sm:p-12 text-center border-t-2 border-[#808080] bg-[#e4effa]">
+      <div className="p-5 sm:p-12 text-center border-t-2 border-[#808080] bg-[#e4effa]">
         <p className="text-gray-800 font-serif text-base mb-1 font-semibold">
           Got any questions? Contact me!
         </p>

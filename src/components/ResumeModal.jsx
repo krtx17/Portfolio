@@ -21,8 +21,8 @@ export default function ResumeModal({ isOpen, onClose, onFocus, zIndex }) {
     >
       <div className="flex flex-col h-full bg-[#808080] select-none">
         {/* Acrobat Toolbar */}
-        <div className="bg-[#c0c0c0] p-1.5 border-b border-[#000000] flex items-center justify-between gap-2 text-xs font-sans">
-          <div className="flex items-center gap-2">
+        <div className="bg-[#c0c0c0] p-1.5 border-b border-[#000000] flex flex-wrap items-center justify-between gap-2 text-xs font-sans">
+          <div className="flex flex-wrap items-center gap-2">
             <a
               href="/resume.pdf"
               download="Kritika_Tripathi_Resume.pdf"
