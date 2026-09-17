@@ -188,7 +188,7 @@ export default function Desktop({ onRestartBoot }) {
 
   return (
     <div 
-      className="relative w-screen h-screen overflow-hidden select-none bg-cover bg-center"
+      className="relative w-screen h-[100dvh] overflow-hidden select-none bg-cover bg-center"
       style={{ backgroundImage: "url('/assets/wallpaper.jpg')" }}
       onClick={() => setSelectedIcon(null)}
     >
