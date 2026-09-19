@@ -2,8 +2,7 @@ export const resumeData = {
   name: "Kritika Tripathi",
   title: "AI & Full Stack Developer",
   status: "Available for hire",
-  location: "Lucknow, Uttar Pradesh, India",
-  phone: "+91-9517092236",
+  location: "Lucknow, UP, India",
   email: "mahitripathi966@gmail.com",
   socials: {
     linkedin: {
@@ -188,7 +187,7 @@ export const resumeData = {
     },
     {
       q: "How can I get in touch with you?",
-      a: "You can email me directly at mahitripathi966@gmail.com, connect on LinkedIn at linkedin.com/in/kritika-tripathi, inspect my code at github.com/krtx17, or call me at +91-9517092236."
+      a: "You can email me directly at mahitripathi966@gmail.com, connect on LinkedIn at linkedin.com/in/kritika-tripathi, or inspect my code at github.com/krtx17."
     }
   ]
 };

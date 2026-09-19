@@ -8,6 +8,8 @@
   **A nostalgia-infused, fully functional Web OS celebrating the golden age of personal computing.**  
   *Engineered for Kritika Tripathi · AI & Full Stack Developer*
 
+  🌍 **Live Demo:** [krtx17-portfolio.vercel.app](https://krtx17-portfolio.vercel.app)
+
   <br />
 
   [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)

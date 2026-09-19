@@ -141,9 +141,8 @@ export default function ContactModal({ isOpen, onClose, onFocus, zIndex }) {
             </div>
 
             {/* Bottom info */}
-            <div className="flex flex-wrap items-center justify-between gap-1 text-[11px] text-gray-600 pt-1">
+            <div className="flex flex-wrap items-center justify-start gap-4 text-[11px] text-gray-600 pt-1">
               <span>Connect via LinkedIn: @{resumeData.socials.linkedin.handle}</span>
-              <span>Phone: {resumeData.phone}</span>
             </div>
           </form>
         )}

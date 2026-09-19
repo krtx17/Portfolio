@@ -165,15 +165,7 @@ export default function HomeWindow({
                 </a>
               </div>
 
-              <div className="flex items-center justify-between py-1 border-b border-blue-300/60">
-                <span className="text-gray-800 flex items-center gap-1.5 font-medium text-sm">
-                  <Phone className="w-4 h-4 text-emerald-800" />
-                  <span>/phone</span>
-                </span>
-                <span className="text-gray-950 font-mono font-bold text-xs">
-                  {resumeData.phone}
-                </span>
-              </div>
+
 
               <div className="flex items-center justify-between py-1">
                 <span className="text-gray-800 flex items-center gap-1.5 font-medium text-sm">

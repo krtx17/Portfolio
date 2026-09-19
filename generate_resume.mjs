@@ -89,7 +89,7 @@ const resumeHtml = `
 <body>
   <h1>${resumeData.name}</h1>
   <div class="contact">
-    ${resumeData.email} | ${resumeData.phone} | <a href="https://linkedin.com/in/${resumeData.socials.linkedin.handle}">linkedin.com/in/${resumeData.socials.linkedin.handle}</a> | <a href="${resumeData.socials.github.url}">${resumeData.socials.github.url.replace('https://', '')}</a>
+    ${resumeData.email} | <a href="https://linkedin.com/in/${resumeData.socials.linkedin.handle}">linkedin.com/in/${resumeData.socials.linkedin.handle}</a> | <a href="${resumeData.socials.github.url}">${resumeData.socials.github.url.replace('https://', '')}</a>
   </div>
 
   <div class="section-title">EDUCATION</div>
