@@ -75,7 +75,7 @@ export default function SystemInfoModal({ isOpen, onClose, onFocus, zIndex }) {
 
               <div className="border-t border-[#808080] pt-3">
                 <h4 className="font-bold text-gray-900 text-sm mb-1">Hardware &amp; Performance:</h4>
-                <p className="text-gray-800">• 5x Production Internships Completed</p>
+                <p className="text-gray-800">• SIH 2026 Finalist (Thermo Shield AI)</p>
                 <p className="text-gray-800">• 3rd Place National AI Hackathon (AgentathonX 2026)</p>
                 <p className="text-gray-800">• Full Stack AI &amp; Multi-Agent Architecture Engine</p>
                 <p className="text-gray-800">• 32.0 GB Neural Memory Allocation</p>
